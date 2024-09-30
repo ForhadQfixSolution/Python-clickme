@@ -1,0 +1,1 @@
+This project folder is directly related to the tutorial: https://youtu.be/H8oNaxM78IA. Visit the link to follow the step-by-step guide and learn how to build a Kivy Python APK on Linux using VirtualBox.
