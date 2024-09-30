@@ -1,0 +1,27 @@
+step:
+
+
+1. under project directory
+	Run: pipreqs 
+	to find additional packages used in deleopment of kviy python project
+
+2. Bouildozer command to build apk with kivy python
+a) Identify Dependencies in Your Project
+	pip install pipreqs (Use pipreqs to Automatically Detect Project Dependencies)
+
+b) buildozer init (Generate or Regenerate the buildozer.spec File)
+	open buildozer.spec and edit based on your requiremnet 
+	title: Your app's title
+	package.name: Your app's package name
+	version: Your app's version
+	source.include_exts: Specify the file extensions to include
+c) buildozer android debug
+
+
+d) buildozer android clean
+	Clean the Build Environment
+
+
+
+
+buildozer -v android debug (After updating the buildozer.spec file, you can run Buildozer again)

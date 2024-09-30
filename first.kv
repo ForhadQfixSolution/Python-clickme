@@ -1,0 +1,18 @@
+InterFace:
+    Label:
+        id:leb
+        text: "[color=ff3333][b]Hello[/b] [/color]World"
+        color: 0.5, 0.5,1,1
+        font_size: '20sp'
+        markup:True
+
+    Button:
+        id:btn
+        font_name:"robotoblack.ttf"
+        text: "Click Me"
+        orientation: "vertical"
+        size_hint: None, None
+        size:200, 100
+        #pos_hint_x:0.5
+        pos_hint:{"center_x":0.5, "center_y":0.4}
+        on_press: root.clicked()
